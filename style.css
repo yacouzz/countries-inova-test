@@ -1,0 +1,61 @@
+body {
+    overflow-x: hidden;
+}
+.country-tab{
+    text-align: left!important;
+}
+.img-flag{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.nav-pills .nav-link {
+    color: #000!important;
+    background-color: transparent!important; 
+}
+
+.nav-pills .nav-link.active{
+    color: #000!important;
+    background-color: transparent!important;  
+}
+
+.btn-inova{
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+}
+.bg-dark {
+    background-color: #000;
+}
+
+#main-content {
+    display: flex!important;
+}
+
+/* On screens that are 992px or less  */
+@media screen and (max-width: 992px) {
+   .btn-inova {
+       margin-top:20px;
+       width:40%;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+   }
+   #main-content {
+       display: block!important;
+   }
+   #countries {
+       width: 100%;
+   }
+   #countriesDetails{
+       width: 100%;
+   }
+   .nav-link{
+       width:100%;
+   }
+   .tab-pane{
+       width:100%;
+   }
+  }
